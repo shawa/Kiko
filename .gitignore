@@ -1,5 +1,10 @@
 _site
 _posts
+
+about.md
+projects.md
+
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+
