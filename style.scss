@@ -21,10 +21,8 @@ div.flag{
  }
 
 html {
-  /* font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: "Inconsolata", "Menlo", "Monospace";
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-weight: 300;
   line-height: 1.6;
 
   @media (min-width: 38em) {
@@ -49,7 +47,8 @@ a {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, time {
+  font-family: "Inconsolata", "Menlo", "Monospace";
   margin-top: 0;
   margin-bottom: .5rem;
   font-weight: 600;
@@ -58,6 +57,9 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+nav {
+    font-family: Menlo;
+}
 h1 {
   font-size: 2rem;
 }
