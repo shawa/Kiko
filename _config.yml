@@ -2,6 +2,9 @@
 #   K i k o   #
 # # # # # # # #
 
+gems:
+    - "jekyll-gallery-generator"
+
 # Basic
 name:               "shawa"
 
@@ -19,6 +22,7 @@ nav:
     href:           "/about"
   - name:           "Projects"
     href:           "/projects"
+
 
 # Sass
 sass:
@@ -38,3 +42,8 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+
+gallery:
+  title: "photos"
+  title_prefix: ""
