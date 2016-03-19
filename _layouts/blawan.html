@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<header class="masthead">
+  <h1 class="masthead-title--small">
+    <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+  </h1>
+</header>
+<script> var tunes = function() { document.getElementById("blawan").innerHTML = '<embed height="0" width="0" src="http://youtube.com/v/_ybvkn6X-tk&t=28&autoplay=1&loop=1" />'; } </script>
+<div class="content page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</div>
+<p><span id="blawan" onclick="tunes()">🔊 </span></p>
