@@ -13,6 +13,15 @@ body {
   padding: 0;
 }
 
+div.flag{
+		width: auto;
+		height: 0.5em;
+		background: no-repeat, linear-gradient(to right, black 33%, #fae024 33%, #fae024 66%, #ed2939 66%);
+		position: relative;
+ }
+
+
+
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 span.buzz {
     font-family: Oswald, "Helvetica Neue", Arial, sans-serif;
